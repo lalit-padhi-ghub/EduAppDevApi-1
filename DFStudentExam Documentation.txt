@@ -1,0 +1,41 @@
+Admin ------ Login ------ Create/Edit Admin
+		   ------ Create/Edit/Remove Staff
+                   ------  Create/Remove Barcode(Barcode is a process of free registration for specific/backward category of students)
+
+Staff ------ Login ------  Create/Edit/Remove Class
+		   ------  Create/Edit/Remove Course
+		   ------  Create/Edit/Remove Exam
+		   ------  Create/Edit/Remove Question
+		   ------  Create/Edit/Remove Topic
+		   ------  Create/Edit/Remove QuestionTopic
+		   ------  Create/Edit/Remove QuestionType
+
+Student ------- Registration ------- Register by online payment gateway or through barcode number     
+				     By admin team.
+                             ------- The userid and password will be sent immediately after regiistration to the Student’s EmailID 
+				     as well as mobile number for Login.
+			     ------- TransactionId and fees will be updated into database in case of payment gateway and 
+				     Rs 0.00 Fees will be updated in case of barcode number
+
+                             ------- If user is not able to get the password then the message will be displayed as 
+				     "please contact the support team".                                               
+                             ------- After registration student will get an welcome/Thank you message from  the site.
+
+Student------- Login ------- User can reset  password,mobile,secondary mobile,email and address himself/herself.
+                     ------- View Student Info(previous as well as upcoming exam informations)
+		     ------- Display all topicwise questions one by one to attend.Can able to see previous quetions and answers one by one for specific month. 
+		     ------- Weekly Exam: 1.Can view past and current weekly exam questions with answers which are attended and 
+                                          2.Can view previous and current weekly exam questions which are not attended.
+			                  3.Finally he will get score and can download scorecard as pdf.
+                                          4.Student can view all the answers after exam completion?
+	   	     ------- Monthly Exam:1.Can view past and current Monthly exam questions with answers which are attended and 
+                                          2.Can view previous and current monthly exam questions which are not attended.
+			                  3.Finally he will get score and can download scorecard as pdf.
+                                          4.Student can view all the answers after exam completion.
+                     ------- Yearly Exam: 1.Can view past and current Yearly exam questions with answers which are attended and 
+                                          2.Can view previous and current yearly exam questions which are not attended.
+			                  3.Finally he will get score and can download scorecard as pdf.
+                                          4.Student can view all the answers after exam completion.
+                     ------- User can able to view and download all the scorecard in thepost-login page.          
+
+		   
